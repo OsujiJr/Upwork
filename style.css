@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans');
+body{
+    display: flex;
+    font-family: open sans;
+    font-size: 16px;
+    justify-content: space-between;
+    height: 5.5rem;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.left p:hover{
+    color: #6FDA44;
+    cursor: pointer;
+}
+.left img:hover{
+    cursor: pointer;
+}
+.right{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    padding-right: 1rem;
+}
+.search{
+    display: flex;
+}
+.icon-search {
+    display: flex;
+    height: 3rem;
+    border: 1px solid grey;
+    margin-left: 1rem;
+    border-radius: 1.5rem ;
+   
+}
+.icon-search p{
+  display: flex;
+  width: 30%;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  height: 3rem ;
+  border-radius: 1.5rem;
+}
+.icon-search img {
+    padding-left: 0.7rem;
+    padding-right: 0.1rem;
+    padding-top: 0.5rem;
+    height: 2rem;
+}
+.icon-search input{
+    font-family: open sans;
+    font-size: 15px;
+    border-radius: 1.5rem;
+    width: 15rem;
+    background-color: transparent;
+    outline: none;   
+    border: none;  
+}
+input::placeholder {
+    height: inherit;
+    margin-left: 1rem;
+    border-radius: 1.2rem;
+    font-size: 16px;
+    color: black;
+    
+}
+.icon-leftt{
+    display: flex;
+    border-radius: 1.5rem ;
+    width: 70%;
+}
+.right a{
+    width: 6rem;
+    height: 3rem;
+    background-color: #6FDA44;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    border-radius: 1.5rem;
+}
+ .icon-search:hover{
+    background-color: #E4EBE4; 
+ }
+ .icon-leftt:hover{
+    background-color: white;
+ }
+ .icon-search p:hover{
+    background-color: white;
+    cursor: pointer;
+ }
+ .right a:hover{
+    background-color: #14A800;
+ }
+ .icon-search img:hover{
+    cursor: pointer;
+ }
+ .right .p1{
+    width: 4rem;
+    text-align: center;
+ }
+ .right .p1:hover{
+    cursor: pointer;
+ }
+
+
